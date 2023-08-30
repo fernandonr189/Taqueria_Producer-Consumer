@@ -1,6 +1,6 @@
 public class Consumer extends Thread{
-    private Buffer buffer;
-    private int id;
+    private final Buffer buffer;
+    private final int id;
     public Consumer(Buffer _buffer, int _id) {
         this.buffer = _buffer;
         this.id = _id;
